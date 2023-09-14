@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', 'sans-serif';
+}
+
+.divPrincipal{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+
+    margin: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    height: 3%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background-color: #ececec;
+    top: 0px;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .redesSociales{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.nav .icoLogos {
+    height: 30px;
+    width: 30px;
+}
+
+.nav .navInfo{
+
+    display: flex;
+    gap: 2%;
+
+    position: end;
+    justify-content: end;
+    align-items: center;
+
+    height: fit-content;
+    
+
+}
+
+.nav .navInfo .infoDiv {
+
+    display: flex;
+
+}
+
+.nav .navInfo #registro{
+
+    height: 45px;
+    width: 200px;
+    display: flex;
+    background-color: black;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.nav .navInfo #login{
+
+    height: 45px;
+    width: 200px;
+    display: flex;
+    background-color: red;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links{
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 96%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: solid black;
+
+}
+
+.links .logo #logoCM{
+    width: 450px;
+}
+
+.links .vinculos{
+
+    display: flex;
+    gap: 50px;
+
+    color: red;
+    
+
+}
+
+.links .locacion{
+
+    display: flex;
+
+    height: 60px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border-radius: 2%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje{
+
+    background-color: #ececec;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.mensaje .mensajeSuperior{
+    font-size: 26pt;
+}
+
+.mensaje .mensajeSuperior{
+    font-size: 26pt;
+}
+
+.divOfertas{
+
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divOfertas .espacio1{
+
+
+    color: darkgray;
+    background-color: white;
+    width: 33%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: solid darkgray 2px;
+
+}
+.divOfertas .espacio2{
+
+
+    color: darkgray;
+    background-color: white;
+    width: 33%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: solid darkgray 2px;
+
+}
+.divOfertas .espacio3{
+
+
+    color: darkgray;
+    background-color: white;
+    width: 33%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: solid darkgray 2px;
+
+}
+
+.divCartelera {
+
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+    height: 30%;
+    flex-direction: column;
+
+    gap: 30px;
+
+    bottom: 0%;
+
+}
+
+.divCartelera .tituloCartelera{
+
+    font-size: 26pt;
+    
+    
+}
+.divCartelera .peliculas{
+
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    
+
+}
+
+.divCartelera .peliculas .peli1{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divCartelera .peliculas .peli2{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divCartelera .peliculas .peli3{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divCartelera .peliculas .peli4{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divCartelera .peliculas .peli5 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divCartelera .peliculas .peli1 .estreno{
+    
+    display: flex;
+    height: 40px;
+    color: white;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+
+
+} 
+.divCartelera .peliculas .horario{
+
+    display: flex;
+    height: 40px;
+    color: white;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divCartelera .peliculas .noEstreno{
+
+    display: flex;
+    height: 40px;
+    color: white;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divCartelera .peliculas .portada {
+    height: 400px;
+    width: 280px;
+}
+
